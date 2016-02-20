@@ -122,4 +122,4 @@ def trainLinReg(myPath, outputFile):
     joblib.dump(regr, outputFile) 
 #import sys 
 #trainLinReg(sys.argv[1],sys.argv[2])
-trainLinReg("C:/Users/RYAN/Downloads/Data1B3B", "C:/Users/RYAN/Documents/GitHub/Realtime_Simulator/Data/regr.pkl")
+trainLinReg("C:/Users/RYAN/Downloads/Data1B3B", "C:/Users/RYAN/Documents/GitHub/Realtime_Sim/Data/regr.pkl")

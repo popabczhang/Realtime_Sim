@@ -7,6 +7,7 @@ Created on Fri Feb 19 16:21:21 2016
 
 import numpy as np
 from sklearn.externals import joblib
+import time
 
 def predictData(inputtf, outputtf, myVar):  
     
@@ -67,4 +68,12 @@ def predictData(inputtf, outputtf, myVar):
     regr = joblib.load(myVar)
     np.savetxt(outputtf ,regr.predict(xTest), delimiter=",")
 
-predictData("C:/Users/RYAN/Documents/GitHub/Realtime_Sim/Data/Xtest.txt", "C:/Users/RYAN/Documents/GitHub/Realtime_Sim/Data/prediction.txt", "C:/Users/RYAN/Documents/GitHub/Realtime_Sim/Data/regr.pkl")
+XtestPath = "C:/Users/RYAN/Documents/GitHub/Realtime_Sim/Data/Xtest.txt"
+predictionPath = "C:/Users/RYAN/Documents/GitHub/Realtime_Sim/Data/prediction.txt"
+regrPklPath = "C:/Users/RYAN/Documents/GitHub/Realtime_Sim/Data/regr.pkl"
+
+N = range(600) # loop for 5 minutes by sleep(0.5)
+for n in N:
+    print n
+    predictData(XtestPath, predictionPath, regrPklPath)
+    time.sleep(0.5) # Time in seconds.
