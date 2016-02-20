@@ -1,0 +1,5 @@
+data training sets are excluded because github can not handle so many files. 
+Please extract them into your download folder
+Contact me at ryanz@mit.edu for the data set zip files
+
+github has file size limitation at 100mb
