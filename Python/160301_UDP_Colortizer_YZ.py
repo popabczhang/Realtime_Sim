@@ -19,11 +19,19 @@ sock.bind((UDP_IP, UDP_PORT))
 
 outputPath = "C:/Users/RYAN/Documents/GitHub/Realtime_Sim/Data/ColortizerData.txt"
 
-while True: 
-    # Todo: compare
+# first run
+previousData, addrv = sock.recvfrom(5000) # buffer size is 1024 bytes
+print "first run receied message:", data
+
+# loop run
+count = 0
+while True:
+    count ++
     data, addrv = sock.recvfrom(5000) # buffer size is 1024 bytes
-    print "receied message:", data
-    f = open(outputPath, "w")
-    f.write(data)
-    f.close()
+    print "loop run - count: ", count, ", receied message:", data
+    if data != previousData:
+        f = open(outputPath, "w")
+        f.write(data)
+        f.close()
+    previousData = data
     #time.sleep(1.0) #sleep will cause delay issue!!!
