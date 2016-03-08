@@ -19,7 +19,6 @@ int udpCount = 0;
 // import UDP library
 import hypermedia.net.*;
 UDP udp;  // define the UDP object
-//UDP udpComp2;  // define the UDP object
 
 void startUDP(){
   
@@ -31,11 +30,6 @@ void startUDP(){
     udp = new UDP( this, 6669 );
     //udp.log( true );     // <-- printout the connection activity
     udp.listen( true );
-    
-    //udpComp2 = new UDP( this, 6669 );
-    //udp.log( true );     // <-- printout the connection activity
-    //udpComp2.listen( true );
-    
   }
   
 }
@@ -124,7 +118,6 @@ void sendData() {
       udp.send( dataToSend, "192.168.0.11", 7001 ); //YZ //for rhino/gh/gHowl, need send to ip address, all use "localhost" = "127.0.0.1"
       //udp.send( dataToSend, "RYAN_DELL_XPS_WIN8", 7002 ); //YZ
       //udp.send( dataToSend, "mkh-ml", 4000 ); //Mo
-      //udpComp2.send( dataToSend, "192.168.0.1", 6152 ); //WD-YZ-CS
       udpCount = 0;
     }
     
