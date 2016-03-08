@@ -1,3 +1,11 @@
+"""
+Realtime Simulator
+
+written by Yan "Ryan" Zhang <ryanz@mit.edu>
+for MIT Media Lab, Changing Place Group, CityScope Project
+March.1st.2016
+"""
+
 import socket
 import time
 

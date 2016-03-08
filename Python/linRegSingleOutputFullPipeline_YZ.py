@@ -1,15 +1,13 @@
 # -*- coding: utf-8 -*-
 """
+Realtime Simulator
+
+For MIT Media Lab, Changing Place Group, CityScope Project
+
+Written by Jesse Michel <jmmichel@mit.edu> 
+Edited by Yan "Ryan" Zhang <ryanz@mit.edu>
+
 Created on Wed Feb 17 10:11:27 2016
-
-@author: jesse
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 20 13:12:58 2016
-
-@author: jesse
 """
 
 def trainLinReg(myPath, outputFile):

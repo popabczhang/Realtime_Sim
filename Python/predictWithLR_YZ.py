@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Feb 19 16:21:21 2016
+Realtime Simulator
 
-@author: jesse
+Written by Jesse Michel <jmmichel@mit.edu> 
+Edited by Yan "Ryan" Zhang <ryanz@mit.edu>
+For MIT Media Lab, Changing Place Group, CityScope Project
+Created on Fri Feb 19 16:21:21 2016
 """ 
 
 import numpy as np

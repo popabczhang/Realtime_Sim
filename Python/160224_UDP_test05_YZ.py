@@ -1,3 +1,13 @@
+"""
+Realtime Simulator
+
+For MIT Media Lab, Changing Place Group, CityScope Project
+
+Written by Yan "Ryan" Zhang <ryanz@mit.edu>
+
+March.1st.2016
+"""
+
 import socket
 import struct
 

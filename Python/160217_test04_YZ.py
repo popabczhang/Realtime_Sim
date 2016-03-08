@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Feb 17 23:52:38 2016
+Realtime Simulator
 
-@author: RYAN
+written by Yan "Ryan" Zhang <ryanz@mit.edu>
+for MIT Media Lab, Changing Place Group, CityScope Project
+March.1st.2016
 """
-
 
 import sys
 

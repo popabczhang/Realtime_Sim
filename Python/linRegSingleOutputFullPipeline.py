@@ -5,13 +5,6 @@ Created on Wed Feb 17 10:11:27 2016
 @author: jesse
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 20 13:12:58 2016
-
-@author: jesse
-"""
-
 def trainLinReg(myPath = "C:/Users/jesse/Downloads/Data1B-2B-3B/Data1B3B", outputFile = "C:/Users/jesse/Dropbox (MIT)/Documents/MIT/UROPs/Cityscope/regr.pkl"):
     # add ml libraries
     from sklearn import linear_model

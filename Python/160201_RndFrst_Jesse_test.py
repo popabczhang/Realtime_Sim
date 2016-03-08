@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Realtime Simulator
 
-This is a temporary script file.
-"""
-# -*- coding: utf-8 -*-
-"""
+For MIT Media Lab, Changing Place Group, CityScope Project
+
+Written by Jesse Michel <jmmichel@mit.edu> 
+Edited by Yan "Ryan" Zhang <ryanz@mit.edu>
+
 Created on Wed Jan 20 13:12:58 2016
-
-@author: jesse
 """
 
 # add ml libraries
