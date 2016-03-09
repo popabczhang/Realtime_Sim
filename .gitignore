@@ -50,3 +50,6 @@ Temporary Items
 *.3dmbak
 *.3dmbak
 *.3dmbak
+Data/prediction.txt
+Data/Xtest.txt
+Rhino/160301_Projection Mapping.3dmbak
