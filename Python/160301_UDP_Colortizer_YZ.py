@@ -16,10 +16,10 @@ import socket
 # UDP_PORT = 7002
 # UDP_IP = "18.85.26.132" #iMac @ CP/media lab wifi
 # UDP_PORT = 7003
-# UDP_IP = "18.85.27.198" #Yoga @ CP/media lab wifi
-# UDP_PORT = 7004
-UDP_IP = "192.168.0.11" #Yoga @ home wifi
-UDP_PORT = 7001
+UDP_IP = "18.85.27.198" #Yoga @ CP/media lab wifi
+UDP_PORT = 7004
+# UDP_IP = "192.168.0.11" #Yoga @ home wifi
+# UDP_PORT = 7001
 # UDP_IP = "104.131.179.31" #Colotizer Cloud @ Karthik Server. doesn't work
 # UDP_PORT = 6666
 
