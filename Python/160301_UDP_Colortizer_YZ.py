@@ -29,6 +29,7 @@ sock.bind((UDP_IP, UDP_PORT))
 outputPath = "C:/Users/RYAN/Documents/GitHub/Realtime_Sim/Data/ColortizerData.txt"
 
 count = 0
+
 while True:
     if count == 0:
         previousData, addrv = sock.recvfrom(5000) # buffer size is 1024 bytes
